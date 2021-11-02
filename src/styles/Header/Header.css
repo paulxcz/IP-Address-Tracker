@@ -1,0 +1,72 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+header {
+  background: url("../../images/pattern-bg.png");
+  min-height: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 22px;
+  color: #fff;
+  margin-top: 27px;
+}
+
+header .search-box {
+  margin-top: 30px;
+  min-width: 250px;
+  width: 85%;
+  max-width: 554px;
+  height: 50px;
+  background: #000;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+header .search-box input {
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  font-size: 17px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+header .search-box button {
+  border: none;
+  background-color: #000;
+  outline: none;
+  display: block;
+  width: 20%;
+  cursor: pointer;
+}
+
+header .search-box button:hover {
+  background-color: #3F3F3F;
+}
+
+header .search-box button .right-arrow {
+  color: #fff;
+}
+/*# sourceMappingURL=Header.css.map */

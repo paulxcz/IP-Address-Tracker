@@ -1,0 +1,29 @@
+.Ip-adress-app {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 256px 1fr;
+      grid-template-rows: 256px 1fr;
+}
+
+.Ip-adress-app footer {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.Ip-adress-app footer a {
+  color: salmon;
+}
+
+.Ip-adress-app footer a:visited {
+  color: salmon;
+}
+
+@media screen and (min-width: 1024px) {
+  .Ip-adress-app footer {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=IpAdressTrackerApp.css.map */

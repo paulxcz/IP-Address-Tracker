@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas  should display IpAdressTracker  correctly 1`] = `
+<div
+  className="Ip-adress-app"
+>
+  <Header
+    setcords={[Function]}
+  />
+  <Map
+    cords={
+      Object {
+        "lat": 35.63304462061077,
+        "lng": 139.8803621105462,
+      }
+    }
+  />
+  <footer>
+    Challenge by Frontend Mentor. Coded by 
+    <a
+      href="https://github.com/paulxcz"
+      target="_blank"
+    >
+      Paulxcz
+    </a>
+    .
+  </footer>
+</div>
+`;

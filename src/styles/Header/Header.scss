@@ -1,0 +1,59 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+header {
+  background: url("../../images/pattern-bg.png");
+  min-height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 27px;
+  }
+  .search-box {
+    margin-top: 30px;
+    min-width: 250px;
+    width: 85%;
+    max-width: 554px;
+    height: 50px;
+    background: #000;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    // align-items: center;
+    // justify-content: space-between;
+    input {
+      width: 80%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: none;
+      font-size: 17px;
+      padding: 0 20px;
+      cursor: pointer;
+    }
+    button {
+      border: none;
+      background-color: #000;
+      outline: none;
+      display: block;
+      width: 20%;
+      cursor: pointer;
+
+      &:hover{
+        background-color: #3F3F3F;
+      }
+      .right-arrow {
+        color: #fff;
+      }
+    }
+  }
+}
